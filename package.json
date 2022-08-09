@@ -2,10 +2,8 @@
   "name": "gmgo-cli",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "bin": "packages/core/index.js",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,5 +12,9 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "node-cmd": "^5.0.0",
+    "yargs": "^17.5.1"
+  }
 }

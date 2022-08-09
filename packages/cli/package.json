@@ -1,0 +1,26 @@
+{
+  "name": "@gmgo-cli/cli",
+  "version": "1.0.2",
+  "description": "> TODO: description",
+  "author": "fanchen <2837903280@qq.com>",
+  "homepage": "https://gitlab.com/Gripexfc/gmgo-cli#readme",
+  "license": "ISC",
+  "main": "lib/cli.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Gripexfc/gmgo-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Gripexfc/gmgo-cli/issues"
+  }
+}
