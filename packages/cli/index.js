@@ -41,8 +41,9 @@ function commandInit(yargs) {
 
         }
         const syncClone = cmd.runSync("git commit -m '测试提交'");
+        const pushType = cmd.runSync(`git push origin ${argv.name}`);
         // const syncClone = cmd.runSync('git status');
         // console.log(syncClone.data);
-        console.log('\x1B[32m%s\x1B[0m', syncClone.data)
+        console.log('\x1B[32m%s\x1B[0m', pushType)
     })
 }
