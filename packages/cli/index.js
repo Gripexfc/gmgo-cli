@@ -40,9 +40,9 @@ function commandInit(yargs) {
             //用户选中提交
 
         }
-        
-        const syncClone = cmd.runSync('git status');
+        const syncClone = cmd.runSync("git commit -m '测试提交'");
+        // const syncClone = cmd.runSync('git status');
         // console.log(syncClone.data);
-        console.log('\x1B[32m%s\x1B[0m', argv)
+        console.log('\x1B[32m%s\x1B[0m', syncClone.data)
     })
 }
